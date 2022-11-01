@@ -2,7 +2,7 @@ let mat = new Array(17);
 let canvas = document.getElementById('center');
 let emptyCellNumber = 0;
 
-for(var i = 0; i <= 16; i++){
+for(let i = 0; i <= 16; i++){
     mat[i] = new Array(17);
 }
 for(let i = 0; i <= 16; ++i){
